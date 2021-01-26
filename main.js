@@ -72,4 +72,4 @@ const blocks = { // object contains all of the information that will be pulled i
   
   //Run code below this line
   
-  console.log(fullReview())
+  console.log(fullReview(process.argv[2],process.argv[3]))
